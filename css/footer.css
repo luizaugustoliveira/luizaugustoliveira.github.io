@@ -25,6 +25,11 @@
   width: 1.25rem;
 }
 
+.container a img {
+  height: 32px;
+  width: 32px;
+}
+
 .footer {
   background: #000000;
 }
