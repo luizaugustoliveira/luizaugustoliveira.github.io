@@ -1,3 +1,8 @@
+.img-config {
+  height: 32px;
+  width: 32px;
+}
+
 .container {
   display: flex;
 }
