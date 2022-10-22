@@ -23,11 +23,6 @@ img {
   display: block;
 }
 
-.container a img {
-  height: 32px;
-  width: 32px;
-}
-
 .subtitulo {
   font-size: 8rem;
   line-height: 1;
