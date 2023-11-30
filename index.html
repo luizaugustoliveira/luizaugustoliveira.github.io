@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Luiz - Desenvolvedor</title>
-  <meta name="description" content="Desenvolvedor Front End localizado em Campina Grande PB">
-  <link rel="stylesheet" href="./css/style.min.css">
+  <meta name="description" content="Desenvolvedor Front Web localizado em Campina Grande PB">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +19,7 @@
     <img src="img/marca.svg" alt="Luiz Augusto Oliveira" width="453" height="50">
     <nav>
       <ul class="header-menu">
-        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#projetos">Projetos</a></li>
         <li><a href="#formacao">Formação</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
@@ -27,23 +27,23 @@
   </header>
 
   <main class="introducao">
-    <img src="img/perfil.jpg" alt="Luiz Augusto Oliveira" width="360" height="520">
+    <img src="img/perfil.jpeg" alt="Luiz Augusto Oliveira" width="360" height="520">
     <div>
-      <h1>Desenvolvedor<br> Front End</h1>
-      <p>Localizado em Campina Grande PB</p>
+      <h1>Desenvolvedor<br> Web</h1>
+      <p>Mora em Campina Grande PB</p>
     </div>
   </main>
 
-  <section class="experiencia" id="experiencia" aria-label="Experiência">
-    <h2 class="subtitulo">Experiência</h2>
+  <section class="projetos" id="projetos" aria-label="Projetos">
+    <h2 class="subtitulo">Projetos</h2>
     <div>
-      <p class="experiencia-texto">Desenvolvo pequenos projetos como o Bikcraft utilizando <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
+      <p class="projetos-texto">Desenvolvo projetos que abordam tecnologias web como <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> e <strong>React</strong> .</p>
 
       <div class="empresa">
-        <span class="empresa-ano">2022</span>
-        <h3 class="empresa-titulo">Bikcraft</h3>
-        <span class="empresa-titulo">Desenvolvedor Júnior</span>
-        <p class="empresa-texto">No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site.</p>
+        <span class="empresa-ano">2023</span>
+        <h3 class="empresa-titulo">Traveler</h3>
+        <span class="empresa-titulo">Desenvolvedor</span>
+        <p class="empresa-texto">No projeto Traveler trabalhei no desenvolvimento completo do HTML, CSS e Javascript do site de uma agência de viagens chamada Traveler e também construí o protótipo do site utilizando a ferramenta Figma.</p>
         <ul class="empresa-habilidades">
           <li>HTML</li>
           <li>CSS</li>
@@ -51,7 +51,30 @@
           <li>UX Design</li>
           <li>UI Design</li>
         </ul>
+        <div class="botoes-projeto">
+          <a href="https://luizaugustoliveira.github.io/traveler/" target="_blank" class="botao-site">Visitar Site</a>
+          <a href="https://github.com/luizaugustoliveira/traveler" target="_blank" class="botao-codigo">Ver Código</a>
+        </div>
       </div>
+    </div>
+
+    <div class="empresa">
+      <span class="empresa-ano">2023</span>
+      <h3 class="empresa-titulo">Animais Fantasticos</h3>
+      <span class="empresa-titulo">Desenvolvedor</span>
+      <p class="empresa-texto">Trabalhei no desenvolvimento do Javascript de um site de curiosidades sobre alguns animais com foco em manipulações do DOM e requisições via Fetch API.</p>
+      <ul class="empresa-habilidades">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>UX Design</li>
+        <li>UI Design</li>
+      </ul>
+      <div class="botoes-projeto">
+        <a href="https://luizaugustoliveira.github.io/animaisFantasticos/" target="_blank" class="botao-site">Visitar Site</a>
+        <a href="https://github.com/luizaugustoliveira/animaisFantasticos" target="_blank" class="botao-codigo">Ver Código</a>
+      </div>
+    </div>
     </div>
   </section>
 
@@ -61,7 +84,7 @@
 
       <div>
         <p class="formacao-texto">
-          Minha experiência acadêmica é a <strong>graduação</strong> em <strong>Ciência da Computação</strong> ainda em andamento. Além disso, procuro fazer cursos intensivos online.
+          Minha formação principal é o <strong>bacharelado</strong> em <strong>Ciência da Computação</strong> na Universidade Federal de Campina Grande (UFCG) ainda em andamento.
         </p>
 
         <ul class="faculdade-lista">
@@ -76,8 +99,10 @@
           <div class="cursos">
             <h3>Cursos Intensivos</h3>
             <ul>
-              <li>UI Design <span>34h</span></li>
-              <li>HTML E CSS <span>46h</span></li>
+              <li>UI Design </li>
+              <li>HTML E CSS </li>
+              <li>JavaScript </li>
+              <li>React </li>
             </ul>
           </div>
 
@@ -94,27 +119,24 @@
   </section>
 
   <footer class="footer" id="contato">
-    <div class="footer-container img-config">
-      <p class="footer-texto">Estou disponível para novas experiências no momento. Entre em contato comigo e marcaremos uma conversa.</p>
+    <div class="footer-container">
+      <p class="footer-texto">Estou aberto a novas oportunidades e experiências. Gostou do meu perfil ? Entre em contato e marcaremos uma conversa.</p>
       <div class="container direcao-horizontal">
         <a target="_blank" href="http://github.com/luizaugustoliveira">
           <button class="link botao-quadrado github">
-            <img src="assets/github.svg" />
+            <img src="img/github.svg" style="cursor: pointer;" />
           </button>
         </a>
         <a target="_blank" href="https://www.linkedin.com/in/luiz-augusto-oliveira/">
           <button class="link botao-quadrado linkedin">
-            <img src="assets/linkedin.svg" />
-          </button>
-        </a>
-        <a target="_blank" href="https://www.instagram.com/luizaugustoliveira/">
-          <button class="link botao-quadrado instagram">
-            <img src="assets/logotipo-do-instagram.png" />
+            <img src="img/linkedIn.svg" style="cursor: pointer;" />
           </button>
         </a>
       </div>
       <p class="footer-copy">Luiz Augusto Oliveira. Alguns direitos reservados.</p>
     </div>
+  </footer>
+
 </body>
 
 </html>
