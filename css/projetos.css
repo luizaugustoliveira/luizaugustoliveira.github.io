@@ -88,7 +88,8 @@
 }
 
 .botao-site,
-.botao-codigo {
+.botao-codigo,
+.botao-figma {
   padding: 10px 15px;
   background-color: #007BFF;
   color: #fff;
@@ -100,6 +101,10 @@
 
 .botao-codigo {
   background-color: #6C757D;
+}
+
+.botao-figma {
+  background-color: #F24E1E;
 }
 
 @media (max-width: 800px) {
